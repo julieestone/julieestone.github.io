@@ -1,0 +1,30 @@
+.profile-image{
+  border-radius: 100%;
+}
+
+.container{
+  /* height: 100%; */
+  margin-top: 20%;
+}
+
+.profile-container {
+  background-color: #78c2adcc;
+  margin-top: -128px;
+  padding: 128px;
+  border-radius: 50%;
+  color: whitesmoke;
+}
+.profile-container:hover{
+  background-color: #78c2adee;
+}
+
+
+.myname {
+  color:whitesmoke;
+  font-family:cursive;
+}
+
+.description {
+  color:whitesmoke;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}

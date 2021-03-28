@@ -1,0 +1,12 @@
+.jumbotron {
+  margin-top: 32px;
+}
+
+#puppy_pic {
+  margin-top: 8px;
+  max-width: 620px;
+}
+
+#quote {
+  max-width: 620px;
+}

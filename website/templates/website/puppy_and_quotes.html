@@ -1,0 +1,22 @@
+{% extends 'website/base.html' %}
+{% load static %}
+
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/puppy_and_quotes.css' %}">
+<script src="{% static 'js/puppy_api.js' %}"></script>
+<div>
+{% include 'website/navbar.html' %}
+<div class="container d-flex align-items-center flex-column">
+  <div class="jumbotron d-flex align-items-center flex-column">
+  <h1 class="display-4">Puppy Time!</h1>
+  <p class="lead" id="puppy_pic"><img id="puppy_image"></p>
+  <hr class="my-4">
+  <p id="quote"></p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" onclick="refresh()" role="button">Click for a new puppy!</a>
+  </p>
+</div>
+</div>
+</div>
+{% endblock %}
